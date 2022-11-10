@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Criar sua conta</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <style>
+        textarea {
+            resize: none;
+            height: 150px;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <h1 class="bg-danger text-light p-5 my-3 display-4">Criar Cadastro</h1>
+        <nav aria-label="breadcrumb">
+
+        </nav>
+
+        <form action="script / aplicação" method="post" name="dados" id="dados">
+
+            <div class="row">
+
+                <div class="col-md-4 my-2">
+                    <label for="usuario" class="form-label">Usuário: </label>
+                    <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Digite seu nome"
+                        minlength="4" maxlength="20" required>
+                </div>
+
+                <div class="col-md-4 my-2">
+                    <label for="senha" class="form-label">Senha:</label>
+                    <input type="password" id="senha" name="senha" class="form-control" placeholder="Digite sua senha"
+                        minlength="8" maxlength="15" required>
+                </div>
+
+                <div class="col-md-4 my-2">
+                    <label for="senha" class="form-label">CPF:</label>
+                    <input type="text" id="senha" name="senha" class="form-control" placeholder="Digite seu CPF"
+                        maxlength="14" required>
+                </div>
+
+                <div class="col-md-4 my-2">
+                    <label for="email" class="form-label">Email: </label>
+                    <input type="email" name="email" id="email" class="form-control"
+                        placeholder="Ex: seuemail@email.com" required>
+                </div>
+
+                <div class="col-md-4 my-2">
+                    <label for="data" class="form-label">Data de aniversário: </label>
+                    <input type="date" name="data" id="data" class="form-control" required>
+                </div>
+
+                <div class="col-md-12 mt-2 mb-5 d-flex justify-content-end">
+                    <!-- <input type="submit" value="Criar conta"> -->
+                    <button type="submit" class="btn btn-success btn-lg">Cadastrar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
